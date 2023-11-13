@@ -55,7 +55,7 @@ python main.py \
     --blip_val_image_embedds_path blip_embedds/ok_vqa/blip_normalized_i_embedds/blip_val_image_embedds.csv.zip \
     --path_to_save_preds results/ok_vqa_val_with_mcan_llama2.csv
 ```
-Note that you must include the paths to the train, val, and test images
+*Note that you must include the paths to the train, val, and test images
 
 ## Results
 See results folder for the results reported in the main paper
