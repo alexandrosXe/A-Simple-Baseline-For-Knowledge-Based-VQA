@@ -1,0 +1,13 @@
+torch 
+transformers
+numpy
+pandas 
+sentencepiece
+scipy
+Pillow
+matplotlib
+ipython
+accelerate
+scikit-learn
+protobuf
+#urllib3==1.26.11 to work on pandora
