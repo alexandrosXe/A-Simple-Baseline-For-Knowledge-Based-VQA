@@ -10,4 +10,4 @@ ipython
 accelerate
 scikit-learn
 protobuf
-#urllib3==1.26.11 to work on pandora
+#urllib3==1.26.11 
