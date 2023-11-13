@@ -1,6 +1,11 @@
 # A-Simple-Baseline-For-Knowledge-Based-VQA
 Repo for the EMNLP 2023 paper "A Simple Knowledge-Based Visual Question Answering"
 
+[![arXiv](https://img.shields.io/badge/arXiv-2305.14053-red)](https://arxiv.org/pdf/2310.13570.pdf)
+
+![method.png](method.png)
+>  Inference-time of our method for n-shot VQA..
+
 ## Abstract
 This paper is on the problem of KnowledgeBased Visual Question Answering (KB-VQA).
 Recent works have emphasized the significance
