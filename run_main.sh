@@ -2,7 +2,7 @@
 source a_simple_baseline_for_kb_vqa/env/bin/activate
 
 
-python /a_simple_baseline_for_kb_vqa/main.py \
+python main.py \
     --dataset ok_vqa \
     --evaluation_set val \
     --train_annotations_path annotations/ok_vqa/train_annots_fixed.csv.zip \
@@ -27,7 +27,7 @@ python /a_simple_baseline_for_kb_vqa/main.py \
     --path_to_save_preds results/ok_vqa_val_with_mcan_llama2.csv
 
 
-# python /data/home/eey569/a_simple_baseline_for_kb_vqa/main.py \
+# python main.py \
 #     --dataset a_ok_vqa \
 #     --evaluation_set val \
 #     --train_annotations_path annotations/a_ok_vqa/a_ok_vqa_train_fixed_annots.csv.zip \
