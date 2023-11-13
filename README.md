@@ -58,7 +58,7 @@ python main.py \
 *Note that you must include the paths to the train, val, and test images
 
 ## Results
-See results folder for the results reported in the main paper
+See the "results" folder for the results reported in the main paper
 
 
 ## Citation
