@@ -71,13 +71,23 @@ See the "results" folder for the results reported in the main paper
 If you find our work useful, please consider citing our paper:
 
 ```bibtex
-@misc{xenos2023simple,
-      title={A Simple Baseline for Knowledge-Based Visual Question Answering}, 
-      author={Alexandros Xenos and Themos Stafylakis and Ioannis Patras and Georgios Tzimiropoulos},
-      year={2023},
-      eprint={2310.13570},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{xenos-etal-2023-simple,
+    title = "A Simple Baseline for Knowledge-Based Visual Question Answering",
+    author = "Xenos, Alexandros  and
+      Stafylakis, Themos  and
+      Patras, Ioannis  and
+      Tzimiropoulos, Georgios",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.919",
+    pages = "14871--14877",
+    abstract = "This paper is on the problem of Knowledge-Based Visual Question Answering (KB-VQA). Recent works have emphasized the significance of incorporating both explicit (through external databases) and implicit (through LLMs) knowledge to answer questions requiring external knowledge effectively. A common limitation of such approaches is that they consist of relatively complicated pipelines and often heavily rely on accessing GPT-3 API. Our main contribution in this paper is to propose a much simpler and readily reproducible pipeline which, in a nutshell, is based on efficient in-context learning by prompting LLaMA (1 and 2) using question-informative captions as contextual information. Contrary to recent approaches, our method is training-free, does not require access to external databases or APIs, and yet achieves state-of-the-art accuracy on the OK-VQA and A-OK-VQA datasets. Finally, we perform several ablation studies to understand important aspects of our method. Our code is publicly available at https://github.com/alexandrosXe/ASimple-Baseline-For-Knowledge-Based-VQA",
 }
 ```
 
